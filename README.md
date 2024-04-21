@@ -130,6 +130,12 @@
      -------------
 
   
-   
+   <br><br><br>
+
+
+# for the following API's Testing through postman
+
+![Screenshot (23)](https://github.com/suhaswankhede121/LeadRev_Java_Backend_Task/assets/132128817/4b1b9fe5-4cf5-4a75-9966-1d1ed5dc5b8f)
+
 
 
