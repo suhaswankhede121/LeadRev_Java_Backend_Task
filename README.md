@@ -17,9 +17,9 @@
     "ratings": [{"userId": "string", "rating": "number", "comment": "string"}]
  }
 
-<br><br>
+<br>
 
-2.Response : <br>
+ -> Response : <br>
 ->Status Code: 201 Created <br>
 ->Response Body: The created product object <br><br><br>
 
@@ -35,3 +35,28 @@
    -> Response : <br>
      -> Status Code: 200 OK <br>
      -> Response Body: Array of product objects or paginated list of product objects
+
+
+3. Retrieve a Product by ID <br>
+   -> Request : <br>
+       -> Method : GET
+       -> Endpoint: '/products/{id}' <br><br>
+
+   -> Response : <br>
+     -> Status Code: 200 OK
+     -> Response Body: The requested product object
+     <br><br><br>
+
+4. Update a Product <br>
+   -> Request:
+      -> Method: PUT
+       -> Endpoint: /products/{id}
+       -> Request Body: Same as Add a Product <br>
+
+   -> Response:
+      ->Status Code: 200 OK
+       -> Response Body: The updated product object
+
+   <br><br><br>
+
+
