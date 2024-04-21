@@ -135,7 +135,24 @@
 
 # for the following API's Testing through postman
 
-![Screenshot (23)](https://github.com/suhaswankhede121/LeadRev_Java_Backend_Task/assets/132128817/4b1b9fe5-4cf5-4a75-9966-1d1ed5dc5b8f)
+1. POST Method 
+
+![Screenshot (23)](https://github.com/suhaswankhede121/LeadRev_Java_Backend_Task/assets/132128817/4b1b9fe5-4cf5-4a75-9966-1d1ed5dc5b8f) 
+
+
+2. GET Method
+
+![Screenshot (24)](https://github.com/suhaswankhede121/LeadRev_Java_Backend_Task/assets/132128817/bf729855-d10b-4e67-874e-f0be81c26ace)
 
 
 
+3.  PUT Method
+
+![Screenshot (25)](https://github.com/suhaswankhede121/LeadRev_Java_Backend_Task/assets/132128817/8c6b5a54-549c-4bac-aa1d-96864cba2b99)  
+
+4. Delete
+
+![Screenshot (26)](https://github.com/suhaswankhede121/LeadRev_Java_Backend_Task/assets/132128817/e8f5ed87-5d1b-4873-bc2a-4768535a9efc)
+
+5. Searching
+![Screenshot (27)](https://github.com/suhaswankhede121/LeadRev_Java_Backend_Task/assets/132128817/9d90015b-6c37-440c-8906-c93852e2bfb0)
