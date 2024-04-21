@@ -51,12 +51,85 @@
    -> Request:
       -> Method: PUT
        -> Endpoint: /products/{id}
-       -> Request Body: Same as Add a Product <br>
+       -> Request Body:
+
+   {
+    "name": "string",
+    "description": "string",
+    "price": "number",
+    "categories": ["string"],
+    "attributes": [{"key": "string", "value": "string"}],
+    "availability": {"inStock": "boolean", "quantity": "number"},
+    "ratings": [{"userId": "string", "rating": "number", "comment": "string"}]
+ }
+    <br>
 
    -> Response:
       ->Status Code: 200 OK
        -> Response Body: The updated product object
 
    <br><br><br>
+
+5.Delete Product :
+  -> Request: <br>
+      -> Method: DELETE
+        -> Endpoint: '/products/{id}'
+        <br>
+   -> Response: <br>
+       -> Status Code: 204 No Content   
+<br><br><br>
+
+6.Search Products : 
+   -> Request: <br>
+      ->Method: GET
+       -> Endpoint: /products/search 
+         -> Query Parameters: <br>
+            ->name: Search by product name (optional)
+            ->category: Search by category (optional)
+             ->attribute: Search by attribute key-value pair (optional) <br><br>
+
+
+   -> Response : 
+     -> Status Code: 200 OK
+      -> Response Body: Array of product objects matching the search criteria
+<br><br><br>
+
+7. Rate a Product <br>
+     -> Request:<br>
+      -> Method: PUT
+       -> Endpoint: /products/{id}/rate <br><br>
+       -> Request Body: <br>
+    {
+    "userId": "string",
+    "rating": "number",
+    "comment": "string"
+   }
+   <br><br>
+   
+   -> Response: <br>
+      -> Status Code: 200 OK
+       -> Response Body: The updated product object
+
+
+<br><br> <br> <br> 
+
+
+<b> Data Model Diagram</b> <br><br>
+
+    +--------------+
+    |    Product   |
+    +--------------+
+    | id           |
+    | name         |
+    | description  |
+    | price        |
+    | categories   |
+    | attributes   |
+    | availability |
+    | ratings      |
+    +--------------+
+
+  
+   
 
 
