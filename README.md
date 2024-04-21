@@ -28,9 +28,9 @@
       ->Method : GET
       ->Endpoint : '/product' <br>
       -> Query Parameter : <br>
-           1. 'page': Page number (optional, default is 0)
-           2. 'size' : Number of items per page (optional, default is 10)
-           3. 'sortBy' : Field to sort by (optional, default is "name")
+           1. 'page': Page number (optional, default is 0) <br>
+           2. 'size' : Number of items per page (optional, default is 10)<br>
+           3. 'sortBy' : Field to sort by (optional, default is "name")<br>
    <br><br>
    -> Response : <br>
      -> Status Code: 200 OK <br>
@@ -84,8 +84,8 @@
       ->Method: GET
        -> Endpoint: /products/search 
          -> Query Parameters: <br>
-            ->name: Search by product name (optional)
-            ->category: Search by category (optional)
+            ->name: Search by product name (optional)<br>
+            ->category: Search by category (optional)<br>
              ->attribute: Search by attribute key-value pair (optional) <br><br>
 
 
@@ -116,9 +116,9 @@
 
 <b> Data Model Diagram</b> <br><br>
 
-    +--------------+
+   --------------
     |    Product   |
-    +--------------+
+     -------------- 
     | id           |
     | name         |
     | description  |
@@ -127,7 +127,7 @@
     | attributes   |
     | availability |
     | ratings      |
-    +--------------+
+     -------------
 
   
    
